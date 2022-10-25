@@ -1,0 +1,23 @@
+{
+  "id": 16,
+  "globalId": "ace1f549-21f5-42b0-9768-0ec0cde6a729",
+  "namespace": {
+    "id": 4,
+    "globalId": "402a8db6-70e3-4c71-902b-989c98a48dbc",
+    "name": "meo",
+    "isSystem": false
+  },
+  "name": "pii",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "language": "csharp",
+    "compiledRazorLocation": "host",
+    "additionalAssemblies": "~/bin/plantanapp_core/Microsoft.IdentityModel.Logging.dll\n",
+    "debug": false,
+    "type": "razor"
+  }
+}

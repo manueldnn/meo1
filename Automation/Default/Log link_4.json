@@ -1,0 +1,47 @@
+{
+  "ApiId": "fa456680c6a116c87faa0f",
+  "ContextPortal": 0,
+  "IsDebug": false,
+  "IsEnabled": true,
+  "Name": "Log link",
+  "Triggers": [],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.ExecuteWorkflow.6",
+      "Description": "Untitled Action",
+      "ExecutionType": "OnExecute",
+      "OrderIndex": 0,
+      "IsDisabled": false,
+      "Parameters": {
+        "Payload": "test",
+        "FileName": "test1",
+        "Result": "",
+        "LinkClickUrl": "mylink",
+        "AbsoluteURL": "",
+        "FileID": ""
+      }
+    },
+    {
+      "ActionType": "LogEvent",
+      "Description": "Untitled Action",
+      "ExecutionType": "OnExecute",
+      "OrderIndex": 1,
+      "IsDisabled": false,
+      "Parameters": {
+        "EventType": {
+          "Value": "ADMIN_ALERT",
+          "IsExpression": false,
+          "Expression": null
+        },
+        "UserID": "3",
+        "LogProperties": [
+          {
+            "name": "mylink",
+            "value": "[mylink]"
+          }
+        ]
+      }
+    }
+  ],
+  "OnErrorActions": []
+}

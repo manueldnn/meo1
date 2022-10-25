@@ -1,0 +1,74 @@
+{
+  "InputFields": [
+    {
+      "Id": 32,
+      "Name": "newvalues",
+      "DefaultValue": null,
+      "Type": "Input",
+      "InputType": "Text",
+      "EntityVersionId": null,
+      "WorkflowId": 7,
+      "IsDeleted": false,
+      "Required": true
+    }
+  ],
+  "OutputFields": [
+    {
+      "Id": 33,
+      "Name": "myval",
+      "DefaultValue": "[myval]",
+      "Type": "Output",
+      "InputType": "Text",
+      "EntityVersionId": null,
+      "WorkflowId": 7,
+      "IsDeleted": false,
+      "Required": false
+    }
+  ],
+  "Id": 7,
+  "GlobalId": "1911ef30-8fd9-4f03-bfce-01868650f12d",
+  "ConfigGenerationGlobalId": "1911ef30-8fd9-4f03-bfce-01868650f12d",
+  "EnvironmentId": 1,
+  "Name": "Simple Workflow",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 20,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 27,
+        "Description": null,
+        "ActionErrorMessage": null,
+        "Condition": null,
+        "ActionType": "InjectData",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 125,
+            "Name": "Data",
+            "Value": [
+              {
+                "value": "[newvalues]",
+                "name": "myval"
+              }
+            ],
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "ActionId": 27,
+            "OrderIndex": 0
+          }
+        ],
+        "DiagramUID": "Activity_14aolo5"
+      }
+    ],
+    "IsInvalid": false
+  },
+  "CreatedBy": 1,
+  "CreatedOn": "2022-10-24T13:46:27.9634744+00:00",
+  "LastModifiedBy": 1,
+  "LastModifiedOn": "2022-10-24T13:46:27.9634744+00:00",
+  "DiagramXML": null,
+  "IsCorrupted": false,
+  "NamespaceUid": "8098259e-211f-491a-b2c3-4f12861210ad"
+}
