@@ -6,7 +6,7 @@
     <description />
     <disabled>false</disabled>
     <enddate>0001-01-01T00:00:00</enddate>
-    <issecure>false</issecure>
+    <issecure>true</issecure>
     <visible>false</visible>
     <issystem>false</issystem>
     <keywords />
@@ -24,6 +24,12 @@
             <permissioncode>SYSTEM_TAB</permissioncode>
             <permissionkey>VIEW</permissionkey>
             <allowaccess>true</allowaccess>
+            <rolename>Low-Code Engineer</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_TAB</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
             <rolename>Admins</rolename>
         </permission>
         <permission>
@@ -36,25 +42,19 @@
             <permissioncode>SYSTEM_TAB</permissioncode>
             <permissionkey>VIEW</permissionkey>
             <allowaccess>true</allowaccess>
-            <rolename>Low-Code Engineer</rolename>
-        </permission>
-        <permission>
-            <permissioncode>SYSTEM_TAB</permissioncode>
-            <permissionkey>VIEW</permissionkey>
-            <allowaccess>true</allowaccess>
             <rolename>Managers</rolename>
         </permission>
         <permission>
             <permissioncode>SYSTEM_TAB</permissioncode>
             <permissionkey>EDIT</permissionkey>
             <allowaccess>true</allowaccess>
-            <rolename>Citizen Developers</rolename>
+            <rolename>Low-Code Engineer</rolename>
         </permission>
         <permission>
             <permissioncode>SYSTEM_TAB</permissioncode>
             <permissionkey>EDIT</permissionkey>
             <allowaccess>true</allowaccess>
-            <rolename>Low-Code Engineer</rolename>
+            <rolename>Citizen Developers</rolename>
         </permission>
     </tabpermissions>
     <tabsettings>
